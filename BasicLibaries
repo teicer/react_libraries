@@ -1,0 +1,23 @@
+------18 to 17 version------
+
+npm uninstall react react-dom
+npm install react@17.0.2 react-dom@17.0.2
+
+//index.js
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App/>
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+
+
+------React-Libraries-----
+npm install @mui/material @emotion/react @emotion/styled @mui/material @mui/styled-engine-sc styled-components @fontsource/roboto @mui/icons-material @mui/styles install dayjs @mui/material @emotion/react @emotion/styled @mui/material @mui/styled-engine-sc styled-components @reduxjs/toolkit react-redux react-router react-helmet react-uuid redux 
+ 
