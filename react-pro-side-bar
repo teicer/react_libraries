@@ -1,0 +1,12 @@
+  sidebar: {
+    height: "100vh",
+    "& .ps-sidebar-container": {
+      backgroundColor: theme.palette.sidebar.main,
+      color: theme.palette.sidebar.secondary,
+    },
+    //hover in that class ps-menuitem-root
+    "& .css-16jkw2k > .ps-menu-button:hover": {
+      backgroundColor: "#0A1929",
+      //hover
+    },
+  },
