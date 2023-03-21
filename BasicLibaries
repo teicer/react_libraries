@@ -19,5 +19,8 @@ ReactDOM.render(
 
 
 ------React-Libraries-----
-npm install @mui/material @emotion/react @emotion/styled @mui/material @mui/styled-engine-sc styled-components @fontsource/roboto @mui/icons-material @mui/styles install dayjs @mui/material @emotion/react @emotion/styled @mui/material @mui/styled-engine-sc styled-components @reduxjs/toolkit react-redux react-router react-helmet react-uuid redux 
+npm install @mui/material @emotion/react @emotion/styled @mui/material @mui/styled-engine-sc styled-components @fontsource/roboto @mui/icons-material @mui/styles install dayjs @mui/material @emotion/react @emotion/styled @mui/material @mui/styled-engine-sc styled-components @reduxjs/toolkit react-redux react-router react-helmet react-uuid redux yup react-pro-sidebar
+
+npm install formik --save
+
  
