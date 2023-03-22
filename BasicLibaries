@@ -1,26 +1,49 @@
-------18 to 17 version------
+
+1)------If the app is "typeScript", if is simple JS ignore this step ------
+
+/////////////////////////////////////////////
+
+https://create-react-app.dev/docs/adding-typescript/
+
+npx create-react-app YOUR_APP_NAME --template typescript
+npm install --save typescript @types/node @types/react @types/react-dom @types/jest
+npm uninstall @types/react
+npm i @types/react@17.0.2
+
+/////////////////////////////////////////////
+
+2)------18 to 17 version------
+/////////////////////////////////////////////
 
 npm uninstall react react-dom
 npm install react@17.0.2 react-dom@17.0.2
 
-//index.js
+/////////////////////////////////////////////
+
+
+
+3)------index.js------
+
+/////////////////////////////////////////////
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App/>
-  </React.StrictMode>,
+    <App/>,
   document.getElementById('root')
 );
 
+/////////////////////////////////////////////
 
-------React-Libraries-----
+4)------React-Libraries------
+
+/////////////////////////////////////////////
+
 npm install @mui/material @emotion/react @emotion/styled @mui/material @mui/styled-engine-sc styled-components @fontsource/roboto @mui/icons-material @mui/styles install dayjs @mui/material @emotion/react @emotion/styled @mui/material @mui/styled-engine-sc styled-components @reduxjs/toolkit react-redux react-router react-helmet react-uuid redux yup react-pro-sidebar
 
 npm install formik --save
 
+/////////////////////////////////////////////
  
